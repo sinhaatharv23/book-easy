@@ -2,39 +2,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Visit-Live%20Demo-blue?style=for-the-badge)](https://book-easy-three.vercel.app/)
 
-**BookEasy** is a modern web application that allows users to discover, book, and manage local spaces for events, meetings, fitness sessions, and more. Whether you're planning a yoga class, corporate meetup, or private gathering, BookEasy helps connect people with the perfect venue — quickly and easily.
-
----
-
-## ✨ Features
-
-- 🔍 **Explore Spaces:** Browse venues by location, category, and type.
-- 📅 **Instant Booking:** Reserve a space by selecting the date, time, and number of guests.
-- 🧑‍💼 **User Authentication:** Secure signup, login, and account management.
-- 📂 **Manage Bookings:** View and organize your upcoming and past bookings.
-- 🧭 **Categories:** Find spaces tailored for Meetings, Fitness, Events, and more.
-- 💬 **Notifications:** Receive real-time updates on your booking status.
-- 🧠 **Modern UI/UX:** Clean, fast, and responsive design for the best experience.
-
----
-
-## 🛠 Tech Stack
-
-### 🌐 Frontend
-
-- **React** (with **TypeScript**)
-- **Vite** – Ultra-fast build tool
-- **Tailwind CSS** – Utility-first modern styling
-- **shadcn/ui + Radix UI** – Accessible, beautiful component libraries
-- **React Router** – Client-side routing
-- **React Query** – Data fetching and caching
-
-### ⚙ Backend
-
-- **Node.js** + **Express** (planned/optional)
-- **MongoDB** – Database for storing spaces and booking data
-
-*(Note: Currently focused on frontend + mock API integration. Backend to be integrated in upcoming updates.)*
+**BookEasy** is a modern platform for discovering, booking, and managing spaces for events, meetings, fitness sessions, and more.
 
 ---
 
@@ -45,10 +13,38 @@
 
 ---
 
-## 🚀 Getting Started (Local Development)
+## ✨ Features
 
-1. Clone the repository:
+- 🔍 Explore spaces by location, category, and availability
+- 📅 Book spaces instantly with real-time notifications
+- 🧑‍💼 Secure user authentication with email verification
+- 📂 Manage bookings through a personalized dashboard
+- 🌎 Google Maps integration for easy navigation
+- 🎮 Gamification and referral rewards
+- 📱 Fully responsive, clean, and accessible UI/UX
+- 🚀 Live deployment with CI/CD and GitHub workflow
 
-   ```bash
-   git clone https://github.com/your-username/bookeasy.git
-   cd bookeasy
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React (TypeScript), Vite, Tailwind CSS, shadcn/ui, React Router, React Query
+- **Backend:** Node.js, Express, MongoDB, Firebase Authentication
+- **APIs:** Google Maps API
+- **Deployment:** Vercel
+
+---
+
+## 🚀 Live Demo
+
+👉 [Visit BookEasy](https://book-easy-three.vercel.app/)
+
+---
+
+## 📂 Local Development
+
+```bash
+git clone https://github.com/your-username/bookeasy.git
+cd bookeasy
+npm install
+npm run dev
